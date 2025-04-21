@@ -1,0 +1,203 @@
+/* src/index.css */
+
+/* Global reset & typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  color: #000;
+}
+/* Dark mode: make About Me & Projects titles white */
+.dark .about .section-title,
+.dark .projects .section-title {
+  color: #fff;
+}
+/* Basic reset and dark/light toggle */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+.dark body {
+  background: #111;
+  color: #eee;
+}
+/* Container */
+.app {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #333;
+}
+.header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.header button {
+  padding: 8px 16px;
+  border: none;
+  background: #000;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 40px 0;
+  background: #000;
+  color: #fff;
+}
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 1.1rem;
+}
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* About */
+.about {
+  padding: 30px 0;
+}
+
+/* Skills */
+.skills {
+  background: #f4f4f4;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+.skill-bar {
+  margin-bottom: 16px;
+}
+.skill-bar .label {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.skill-bar .track {
+  width: 100%;
+  height: 8px;
+  background: #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.skill-bar .fill {
+  height: 8px;
+  background: #000;
+  width: 0%;
+  transition: width 1s ease;
+  border-radius: 4px;
+}
+.skills {
+  background: #f4f4f4;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Optional: increase the track height */
+.skill-bar .track {
+  height: 12px;
+}
+.skill-bar .fill {
+  height: 12px;
+}
+/* Dark‑mode overrides */
+.dark .skills {
+  background: #2a2a2a;        /* dark gray bg */
+  border: 1px solid #444;    /* subtle border */
+}
+
+.dark .skills .section-title {
+  color: #eee;               /* light heading */
+}
+
+.dark .skill-bar .label span {
+  color: #ddd;               /* lighter text */
+}
+
+.dark .skill-bar .track {
+  background: #444;          /* darker track */
+}
+
+.dark .skill-bar .fill {
+  background: #fff;          /* white fill */
+}
+
+
+/* Projects */
+.projects {
+  padding: 30px 0;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  gap: 20px;
+}
+.project-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  transition: box-shadow 0.3s;
+}
+.project-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.project-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 2px solid #333;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Dark mode (optional) */
+.dark .header,
+.dark .footer {
+  background: #000;
+  color: #fff;
+}
+.dark body {
+  background: #111;
+  color: #eee;
+}
+.dark .header button {
+  background: #fff;
+  color: #000;
+}
