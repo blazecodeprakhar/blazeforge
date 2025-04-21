@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/blazeforge/static/css/main.01d1884e.chunk.css",
+    "main.js": "/blazeforge/static/js/main.8ed31e5d.chunk.js",
+    "main.js.map": "/blazeforge/static/js/main.8ed31e5d.chunk.js.map",
+    "runtime-main.js": "/blazeforge/static/js/runtime-main.da5bd5ed.js",
+    "runtime-main.js.map": "/blazeforge/static/js/runtime-main.da5bd5ed.js.map",
+    "static/js/2.6f58f2f5.chunk.js": "/blazeforge/static/js/2.6f58f2f5.chunk.js",
+    "static/js/2.6f58f2f5.chunk.js.map": "/blazeforge/static/js/2.6f58f2f5.chunk.js.map",
+    "index.html": "/blazeforge/index.html",
+    "precache-manifest.0ba2e9b2745a2546cadfbede47b0bdd8.js": "/blazeforge/precache-manifest.0ba2e9b2745a2546cadfbede47b0bdd8.js",
+    "service-worker.js": "/blazeforge/service-worker.js",
+    "static/css/main.01d1884e.chunk.css.map": "/blazeforge/static/css/main.01d1884e.chunk.css.map",
+    "static/js/2.6f58f2f5.chunk.js.LICENSE.txt": "/blazeforge/static/js/2.6f58f2f5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da5bd5ed.js",
+    "static/js/2.6f58f2f5.chunk.js",
+    "static/css/main.01d1884e.chunk.css",
+    "static/js/main.8ed31e5d.chunk.js"
+  ]
+}
